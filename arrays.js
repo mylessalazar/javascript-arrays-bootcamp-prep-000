@@ -28,4 +28,4 @@ function removeElementFromBeginningOfArray(chocolateBars){
 }
 function removeElementFromBeginningOfArray(chocolateBars){
   return chocolateBars.slice(1);
-  
+}
