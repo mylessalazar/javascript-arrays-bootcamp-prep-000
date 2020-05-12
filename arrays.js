@@ -4,5 +4,7 @@ var chocolateBars = [
 function addElementToBeginningOfArray(chocolateBars,foo){
   return ["foo", ...chocolateBars];
 }
-function destructivelyAddElementToEndOfArray(chocolateBars)
-}
+function destructivelyAddElementToEndOfArray(chocolateBars,foo){
+  chocolateBars.push(foo);
+  return chocolateBars
+
