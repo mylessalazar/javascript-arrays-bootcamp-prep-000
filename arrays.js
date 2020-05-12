@@ -19,3 +19,4 @@ function destructivelyAddElementToBeginningOfArray (chocolateBars,foo){
 function addElementToEndOfArray(chocolateBars,foo){
   return [...chocolateBars, foo];
 }
+function accessElementInArray(chocolateBars)
