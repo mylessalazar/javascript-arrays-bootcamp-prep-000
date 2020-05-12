@@ -20,5 +20,5 @@ function addElementToEndOfArray(chocolateBars,foo){
   return [...chocolateBars, foo];
 }
 function accessElementInArray(array,index){
-  
+
 }
