@@ -22,3 +22,7 @@ function addElementToEndOfArray(chocolateBars,foo){
 function accessElementInArray(array,index){
   return array[index]
 }
+function removeElementFromBeginningOfArray(chocolateBars){
+  chocolateBars.shift();
+  return chocolateBars;
+}
