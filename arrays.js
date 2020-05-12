@@ -8,3 +8,7 @@ function destructivelyAddElementToEndOfArray(chocolateBars,foo){
   chocolateBars.push(foo);
   return chocolateBars
 }
+function destructivelyRemoveElementFromBeginningOfArray (chocolateBars){
+  chocolateBars.shift();
+  return chocolateBars;
+}
